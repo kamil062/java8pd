@@ -1,1 +1,1 @@
-"# java8pd" 
+Java 8 Podręcznik doświadczonego programisty - ćwiczenia
