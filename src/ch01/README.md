@@ -25,4 +25,4 @@ Twój program powinien rozpoznać kwadrat magiczny.
 - Zadanie 15 - Napisz program, który zapisuje trójkąt Pascala do stopnia n w ArrayList<ArrayList<Integer>>.
 - Zadanie 16 - Popraw metodę average w taki sposób, by przy jej wywoływaniu konieczne było podanie przynajmniej jednego parametru.
 
-[Zadanie 1]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+[Zadanie 1]: </ex01/Exercise1.java>
