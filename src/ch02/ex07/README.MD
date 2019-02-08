@@ -1,0 +1,1 @@
+### Dodaj komentarze javadoc do obu wersji klasy `Point` z poprzednich ćwiczeń.

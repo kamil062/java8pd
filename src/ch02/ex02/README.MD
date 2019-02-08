@@ -1,4 +1,4 @@
-Przyjrzyj się metodzie nextInt z klasy Scanner . Czy jest to metoda dostępowa,
+### Przyjrzyj się metodzie nextInt z klasy Scanner . Czy jest to metoda dostępowa,
 czy modyfikująca? Dlaczego? A jak jest z metodą nextInt z klasy Random?
 
 Scanner.nextInt jest metodą modyfikującą, ponieważ modyfikuje dane obiektu:
