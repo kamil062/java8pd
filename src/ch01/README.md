@@ -1,8 +1,8 @@
 # **Java 8 Podręcznik doświadczonego programisty**
 
-## **Rozdział 1**] - Podstawowe struktury programistyczne
+## **Rozdział 1** - Podstawowe struktury programistyczne
 
-- [Zadanie 1]] - Napisz program, który wczytuje zmienną całkowitą i wyświetla ją w postaci liczby binarnej, ósemkowej i szesnastkowej. Wyświetl jej odwrotność w postaci szesnastkowej liczby zmiennoprzecinkowej.
+- [Zadanie 1] - Napisz program, który wczytuje zmienną całkowitą i wyświetla ją w postaci liczby binarnej, ósemkowej i szesnastkowej. Wyświetl jej odwrotność w postaci szesnastkowej liczby zmiennoprzecinkowej.
 =======
 - [Zadanie 1] - Napisz program, który wczytuje zmienną całkowitą i wyświetla ją w postaci liczby binarnej, ósemkowej i szesnastkowej. Wyświetl jej odwrotność w postaci szesnastkowej liczby zmiennoprzecinkowej.
 - [Zadanie 2] - Napisz program, który wczytuje l iczbę całkowitą opisującą kąt (która może mieć wartość dodatnią lub ujemną) i normalizuje ją do wartości od O do 359 stopni. Najpierw spróbuj zrobić to za pomocą operatora %, a następnie za pomocą metody floorMod.
