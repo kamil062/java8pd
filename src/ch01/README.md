@@ -2,7 +2,11 @@
 
 ## **Rozdział 1**] - Podstawowe struktury programistyczne
 
+<<<<<<< HEAD
 - [Zadanie 1]] - Napisz program, który wczytuje zmienną całkowitą i wyświetla ją w postaci liczby binarnej, ósemkowej i szesnastkowej. Wyświetl jej odwrotność w postaci szesnastkowej liczby zmiennoprzecinkowej.
+=======
+- [Zadanie 1] - Napisz program, który wczytuje zmienną całkowitą i wyświetla ją w postaci liczby binarnej, ósemkowej i szesnastkowej. Wyświetl jej odwrotność w postaci szesnastkowej liczby zmiennoprzecinkowej.
+>>>>>>> 68fc17f109535a9d682f4833b206b95c62b5b407
 - [Zadanie 2] - Napisz program, który wczytuje l iczbę całkowitą opisującą kąt (która może mieć wartość dodatnią lub ujemną) i normalizuje ją do wartości od O do 359 stopni. Najpierw spróbuj zrobić to za pomocą operatora %, a następnie za pomocą metody floorMod.
 - [Zadanie 3] - Korzystając z operatora warunkowego, napisz program, który wczytuje trzy liczby całkowite i wyświetla największą z nich. Powtórz to samo z użyciem Math.max.
 - [Zadanie 4] - Napisz program wyświetlający najmniejszą i największą liczbę dodatnią typu double. Podpowiedź: poszukaj Math.nextUp w Java API.
