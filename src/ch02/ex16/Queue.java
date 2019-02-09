@@ -1,4 +1,4 @@
-package ch02.ex17;
+package ch02.ex16;
 
 
 import java.util.ArrayList;
@@ -22,19 +22,6 @@ public class Queue {
 
         public Node getNext() { return this.next; }
         public void setNext(Node next) { this.next = next; }
-    }
-    public class Iterator {
-        private Node current = head;
-
-        public boolean hasNext(){
-            return current != null;
-        }
-
-        public Node next(){
-            Node ret = current;
-            current = current.getNext();
-            return ret;
-        }
     }
     private Node head = null;
 
@@ -80,10 +67,6 @@ public class Queue {
         String tmp = this.head.getValue();
         this.head = (count() <= 1) ? null : this.head.getNext();
         return tmp;
-    }
-
-    public Iterator iterator(){
-        return new Iterator();
     }
 
     @Override

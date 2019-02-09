@@ -1,10 +1,10 @@
 package ch02.ex17;
 
 /*
-Zaimplementuj klasę Queue, nieograniczoną kolejkę ciągów znaków. Dodaj metodę
-add, która dodaje element na końcu, oraz metodę remove usuwającą element z początku
-kolejki. Zaimplementuj elementy w postaci połączonej listy węzłów. Zaimplementuj
-Node jako klasę zagnieżdżoną. Czy powinna ona być klasą statyczną?
+Dla kolejki z poprzedniego ćwiczenia utwórz iterator - obiekt, który zwraca
+po kolei elementy z kolejki. Zaimplementuj Iterator jako klasę zagnieżdżoną
+z metodarni next i hasNext. Dodaj metodę iterator() w klasie Queue, która zwróci
+obiekt Queue.Iterator. Czy iterator powinien być statyczny?
 */
 
 import java.util.Random;
@@ -15,18 +15,11 @@ public class Exercise17 {
     public static void main(String[] args){
         Queue queue = new Queue();
 
-        System.out.println(queue);
-
-        for(int i = 0; i < 5; i++) {
+        for(int i = 0; i < 5; i++)
             queue.add(Long.toString(Math.abs(random.nextLong()), 36));
-            System.out.println(queue);
-        }
 
-        System.out.println();
-
-        for(int i = 0; i < 5; i++) {
-            queue.remove();
-            System.out.println(queue);
-        }
+        Queue.Iterator it = queue.iterator();
+        while(it.hasNext())
+            System.out.print("[" + it.next().getValue() + "] ");
     }
 }
