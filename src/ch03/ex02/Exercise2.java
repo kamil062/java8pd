@@ -1,22 +1,16 @@
 package ch03.ex02;
 
 /*
-Utwórz interfejs Measurable z metodą double getMeasure(), która dostarcza jakąś
-metrykę obiektu. Zaimplementuj interfejs Measurable w klasie Employee. Utwórz
-metodę double average(Measurable[] objects), która oblicza średnią metryk.
-Wykorzystaj ją do obliczenia średniego wynagrodzenia pracowników, których dane
-są zapisane w tablicy.
+Kontynuując poprzednie ćwiczenie, utwórz metodę Measurable largest(Measurable[] objects).
+Wykorzystaj ją do ustalenia nazwiska pracownika z najwyższym wynagrodzeniem. Do czego użyjesz rzutowania?
 */
-
-import ch03.ex01.Employee;
-import ch03.ex01.Measurable;
 
 import java.util.Random;
 
 public class Exercise2 {
     private static final Random generator = new Random();
 
-    private static double average(ch03.ex01.Measurable[] objects){
+    private static double average(Measurable[] objects){
         double sum = 0.0;
         int count = 0;
         for(Measurable o : objects){
@@ -25,6 +19,17 @@ public class Exercise2 {
         }
 
         return sum / count;
+    }
+
+    private static Measurable largest(Measurable[] objects){
+        Measurable highest = objects[0];
+        for(Measurable o : objects){
+            if(o.getMeasure() > highest.getMeasure()){
+                highest = o;
+            }
+        }
+
+        return highest;
     }
 
     public static void main(String[] args){
@@ -40,7 +45,11 @@ public class Exercise2 {
         for(Employee e : employees)
             System.out.println(e);
 
+        Employee largestSalary = (Employee) largest(employees);
+
         System.out.println();
         System.out.printf("Avg salary: %.2f\n", average(employees));
+        System.out.printf("Largest salary: %s %s - %.2f\n",
+                largestSalary.getFirstName(), largestSalary.getSecondName(), largestSalary.getSalary());
     }
 }

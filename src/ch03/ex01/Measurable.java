@@ -1,4 +1,5 @@
 package ch03.ex01;
 
-public class Measurable {
+public interface Measurable {
+    double getMeasure();
 }

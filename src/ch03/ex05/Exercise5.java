@@ -1,19 +1,17 @@
 package ch03.ex05;
 
 /*
-Zaimplementuj statyczną metodę of w klasie IntSequence, która zwraca ciąg
-parametrów. Na przykład IntSequence.of(3. l, 4, l, 5. 9) zwraca ciąg sześciu
-wartości. Dodatkowe punkty możesz dostać za zwrócenie instancji wewnętrznej
-klasy anonimowej.
+Zaimplementuj metodę statyczną constant w klasie IntSequence, która zwraca
+nieskończony ciąg stałych. Na przykład IntSequence.constant(l) zwraca wartości
+l l l ... , w nieskończoność. Dodatkowe punkty za wykonanie tego za pomocą
+wyrażenia lambda.
 */
-
-import ch03.ex04.IntSequence;
 
 public class Exercise5 {
     public static void main(String[] args){
-        ch03.ex04.IntSequence digitSequence = IntSequence.of(3, 1, 4, 1, 5, 9);
+        IntSequence constSequence = IntSequence.constant(1);
 
-        while(digitSequence.hasNext())
-            System.out.println(digitSequence.next());
+        for(int i = 0; i < 5; i++)
+            System.out.println(constSequence.next());
     }
 }

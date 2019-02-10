@@ -23,4 +23,16 @@ public class Employee implements Measurable {
     public String toString(){
         return String.format("Employee %s %s, salary: %.2f", this.firstName, this.secondName, this.salary);
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getSecondName() {
+        return secondName;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
 }
