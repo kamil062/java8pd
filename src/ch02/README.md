@@ -33,4 +33,4 @@ powinno ustawić p na punkt o współrzędnych (2.3, 5).
 [Zadanie 11]: <ex11/Calendar.java>
 [Zadanie 15]: <ex15/Exercise15.java>
 [Zadanie 16]: <ex16/Exercise16.java>
-[Zadanie 17]: <ex16/Exercise17.java>
+[Zadanie 16]: <ex16/Exercise17.java>
