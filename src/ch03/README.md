@@ -13,6 +13,12 @@
                 `public static void runTogether(Runnable... tasks)`
                 `public static void runlnOrder(Runnable... tasks)`
                 Pierwsza metoda powinna uruchomić każde zadanie w oddzielnym wątku i zakończyć działanie. Druga metoda powinna uruchomić wszystkie zadania w bieżącym wątku i zakończyć działanie po zakończeniu ostatniego z nich.
+- [Zadanie 10] - Korzystając z metod `listFiles(FileFilter)` i `isDirectory` z klasy `java.io.File`, napisz metodę zwracającą wszystkie podkatalogi wskazanego katalogu. Wykorzystaj wyrażenie lambda zamiast obiektu `FileFilter`. Wykonaj to samo za pomocą wyrażenia z metodą i anonimowej klasy wewnętrznej.
+- [Zadanie 11] - Korzystając z metody `list(FilenameFilter)` klasy `java.io.File`, napisz metodę zwracającą wszystkie pliki ze wskazanego katalogu ze wskazanym rozszerzeniem. Użyj wyrażenia lambda, a nie `FilenameFilter`. Jakie zmienne zewnętrzne wykorzystasz?
+- [Zadanie 12] - Mając tablicę obiektów `File`, posortuj je w taki sposób, by katalogi znalazły się przed plikami, a w każdej grupie elementy zostały posortowane według nazwy. Użyj wyrażenia lambda przy implementowaniu interfejsu `Comparator`.
+- [Zadanie 13] - Napisz metodę, która pobiera tablicę instancji klas implementujących interfejs `Runnable` i zwraca instancję `Runnable`, której metoda `run` wykonuje kolejno kod instancji obiektów zapisanych w tablicy. Zwróć wyrażenie lambda.
+- [Zadanie 14] - Napisz wywołanie `Arrays.sort`, które sortuje pracowników według wynagrodzenia, a w przypadku takich samych wynagrodzeń według nazwiska. Użyj `Comparator.thenComparing`. Następnie wykonaj to samo w odwrotnej kolejności.
+
 
 [Zadanie 1]: <ex01/Exercise1.java>
 [Zadanie 2]: <ex02/Exercise2.java>
@@ -20,5 +26,10 @@
 [Zadanie 4]: <ex04/Exercise4.java>
 [Zadanie 5]: <ex05/Exercise5.java>
 [Zadanie 7]: <ex07/Exercise7.java>
-[Zadanie 8]: <ex07/Exercise8.java>
-[Zadanie 9]: <ex07/Exercise9.java>
+[Zadanie 8]: <ex08/Exercise8.java>
+[Zadanie 9]: <ex09/Exercise9.java>
+[Zadanie 10]: <ex10/Exercise10.java>
+[Zadanie 11]: <ex11/Exercise11.java>
+[Zadanie 12]: <ex12/Exercise12.java>
+[Zadanie 13]: <ex13/Exercise13.java>
+[Zadanie 14]: <ex14/Exercise14.java>
