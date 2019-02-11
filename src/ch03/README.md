@@ -7,9 +7,18 @@
 - [Zadanie 3] - Jaki jest typ nadrzędny dla typu `String`? Dla typu `Scanner`? Typu `ImageOutputStream`? Zauważ, że każdy typ ma typ nadrzędny. Klasa lub interfejs bez zadeklarowanego typu nadrzędnego otrzymuje jako typ nadrzędny `Object`.
 - [Zadanie 4] - Zaimplementuj statyczną metodę `of` w klasie `IntSequence`, która zwraca ciąg parametrów. Na przykład `IntSequence.of(3. l, 4, l, 5. 9)` zwraca ciąg sześciu wartości. Dodatkowe punkty możesz dostać za zwrócenie instancji wewnętrznej klasy anonimowej.
 - [Zadanie 5] - Zaimplementuj metodę statyczną `constant` w klasie `IntSequence`, która zwraca nieskończony ciąg stałych. Na przykład `IntSequence.constant(l)` zwraca wartości l l l ... , w nieskończoność. Dodatkowe punkty za wykonanie tego za pomocą wyrażenia lambda.
+- [Zadanie 7] - Zaimplementuj metodę `void luckySort (ArrayList<String> strings, Comparator<String> comp)`, która wywołuje `Collections.shuffle` na tablicy typu `ArrayList` do chwili, gdy elementy będą uporządkowane rosnąco w sposób określony przez komparator.
+- [Zadanie 8] - Zaimplementuj klasę `Greeter`, która implementuje interfejs `Runnable` i w której metoda `run` wyświetla n kopii tekstu `"Witaj, " + target`, gdzie n i target są ustawiane w konstruktorze. Stwórz dwie instancje z różnymi komunikatami i wykonaj je równolegle w dwóch wątkach.
+- [Zadanie 9] - Zaimplementuj metody:
+                `public static void runTogether(Runnable... tasks)`
+                `public static void runlnOrder(Runnable... tasks)`
+                Pierwsza metoda powinna uruchomić każde zadanie w oddzielnym wątku i zakończyć działanie. Druga metoda powinna uruchomić wszystkie zadania w bieżącym wątku i zakończyć działanie po zakończeniu ostatniego z nich.
 
 [Zadanie 1]: <ex01/Exercise1.java>
 [Zadanie 2]: <ex02/Exercise2.java>
 [Zadanie 3]: <ex03/README.MD>
 [Zadanie 4]: <ex04/Exercise4.java>
 [Zadanie 5]: <ex05/Exercise5.java>
+[Zadanie 7]: <ex07/Exercise7.java>
+[Zadanie 8]: <ex07/Exercise8.java>
+[Zadanie 9]: <ex07/Exercise9.java>
