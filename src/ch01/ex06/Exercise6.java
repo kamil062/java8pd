@@ -7,7 +7,7 @@ Oblicz silnię l 000.
 
 import java.math.BigInteger;
 
-public class Exercise06 {
+public class Exercise6 {
     private static BigInteger factorial(int n){
         if(n <= 1) {
             return BigInteger.valueOf(1);
