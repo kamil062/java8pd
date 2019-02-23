@@ -29,4 +29,4 @@ Czy komunikat o błędzie wygląda lepiej? Co zrobisz, by naprawić ten problem?
 [Zadanie 2]: <ex02/Exercise2.java>
 [Zadanie 3]: <ex03/Exercise3.java>
 [Zadanie 4]: <ex04/Exercise4.java>
-[Zadanie 4]: <ex05/Exercise5.java>
+[Zadanie 5]: <ex05/Exercise5.java>
