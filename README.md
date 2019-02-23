@@ -11,4 +11,5 @@
 [Rozdział 2]: <src/ch02>
 [Rozdział 3]: <src/ch03>
 [Rozdział 4]: <src/ch04>
+[Rozdział 5]: <src/ch05>
 [Rozdział 6]: <src/ch06>
